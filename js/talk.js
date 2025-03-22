@@ -8,7 +8,7 @@ new TypeIt("#xyhjzr", {
     .delete(null, {
         delay: 500
     })
-    .type("徐元浩❤姜止柔")
+    .type("徐元浩❤姜芷柔")
     .pause(3000)
     .go();
 
