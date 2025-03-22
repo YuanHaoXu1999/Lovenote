@@ -13,7 +13,11 @@
 </head>
 
 <body>
-    <audio id="bgm" autoplay src="/music/shun_huandehuanshi.m4a" loop="loop"></audio>
+    <audio id="bgm" loop>
+        <source src="music/shun_huandehuanshi.mp3" type="audio/mp4">
+    </audio>
+
+    <button id="playButton" onclick="document.getElementById('bgm').play()">🎵 播放音乐</button>
     <!-- 标题板块 -->
     <div class="title">
         <img src="./images/bg1.gif" alt="bgGif">

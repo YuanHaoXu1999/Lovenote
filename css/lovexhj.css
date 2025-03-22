@@ -3,6 +3,34 @@
     padding: 0;
 }
 
+#playButton {
+    background: linear-gradient(135deg, #f8c3d4, #eac7ff);
+    /* 柔和的粉紫色 */
+    border: none;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(234, 199, 255, 0.4);
+    /* 轻柔阴影 */
+    font-family: "Comic Sans MS", "Arial", sans-serif;
+    /* 俏皮字体 */
+}
+
+#playButton:hover {
+    background: linear-gradient(135deg, #f6b6cc, #dab6f3);
+    /* 悬停时颜色略深 */
+    transform: scale(1.05);
+}
+
+#playButton:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 5px rgba(234, 199, 255, 0.3);
+}
+
 .title img {
     display: block;
     filter: blur(5px);
